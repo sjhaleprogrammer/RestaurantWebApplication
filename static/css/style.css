@@ -578,12 +578,16 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url("{{ url_for('static', filename='image/background.jpg') }}") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
     position: relative;
+
 }
+
+
+
 .all-page-title .container{
 	position: relative;
 	z-index: 2;
