@@ -19,7 +19,7 @@ body {
     line-height: 1.80857;
     
     /* The image used */
-    background-image: url('static/images/background.jpg');
+    background-image: url("{{ url_for('static', filename='image/background.jpg') }}");
     /* Full height */
     height: 100%;
     
