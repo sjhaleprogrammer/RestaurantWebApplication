@@ -303,9 +303,9 @@
 	
 	<select class="image-picker show-html">
 		<option value=""></option>
-		<option data-img-src="http://placekitten.com/300/200" value="1">Cute Kitten 1</option>
-		<option data-img-src="http://placekitten.com/150/200" value="2">Cute Kitten 2</option>
-		<option data-img-src="http://placekitten.com/400/200" value="3">Cute Kitten 3</option>
+		<option data-img-src="{{ url_for('static', filename='images/img-01.jpg') }}" value="1">Cute Kitten 1</option>
+		<option data-img-src="{{ url_for('static', filename='images/img-02.jpg') }}" value="2">Cute Kitten 2</option>
+		<option data-img-src="{{ url_for('static', filename='images/img-01.jpg') }}" value="3">Cute Kitten 3</option>
 	</select>
 	
 	
