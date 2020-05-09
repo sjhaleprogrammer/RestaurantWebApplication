@@ -578,7 +578,7 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url("{{ url_for('static', filename='image/background.jpg') }}") no-repeat;
+    background: url(../images/all-bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
@@ -587,22 +587,23 @@ button:focus{
 }
 
 
-
 .all-page-title .container{
 	position: relative;
 	z-index: 2;
 }
 .all-page-title::before{
-	background: #010101;
-	content: "";
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 1;
-	opacity: 0.8;	
+	/* The image used */
+    background-image: url("{{ url_for('static', filename='image/background.jpg') }}");
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 .all-page-title h1{
 	font-size: 38px;
 	color: #ffffff;
