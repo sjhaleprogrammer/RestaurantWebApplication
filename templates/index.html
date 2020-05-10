@@ -32,6 +32,7 @@
         width: 25%;
         padding: 10px;
         height: 300px; /* Should be removed. Only for demonstration */
+        
     }
 
     /* Clear floats after the columns */
@@ -41,10 +42,10 @@
         clear: both;
     }
 
-    .input {
-        align-content: center;
-        color:black
-    }
+
+    
+    
+
   
 
   </style>  
@@ -64,25 +65,54 @@
      <div class="column">
         <h2>Pizza $8.90</h2>
         <img src="{{url_for('static', filename='images/IMG_4645-682x1024.jpg')}}" /> 
+        <br>
         <input type="checkbox" id="pizza" >
+        
      </div>
      <div class="column">
         <h2>Burger $2.64</h2>
         <img src="{{url_for('static', filename='images/1.jpg')}}" /> 
+        <br>
         <input type="checkbox" id="burger" >
+        
      </div>
      <div class="column">
         <h2>Sub Sandwich $7.75</h2>
         <img src="{{url_for('static', filename='images/2108-SuperAmericanSub.jpg')}}" /> 
+        <br>
         <input type="checkbox" id="sub" >
+        
      </div>
      <div class="column">
         <h2>Salad $8.59</h2>
         <img src="{{url_for('static', filename='images/Chopped-Salad-008.jpg')}}" /> 
-        <input type="checkbox" id="salad" >
+        <br>
+        <input type="checkbox" id="salad" >   
+
      </div>
     </div>
     
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Total:</label>
+    <input id="User" name="Name" type="text"/>
+
+
+
+
 
   
 </body>
