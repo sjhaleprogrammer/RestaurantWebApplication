@@ -1,6 +1,6 @@
 
 
-# Python Flask sample for Azure App Service (Linux)
+# Python Flask Azure App (Linux)
 
 The Fake Restaurant Application
 
